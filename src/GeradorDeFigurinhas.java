@@ -33,7 +33,7 @@ public class GeradorDeFigurinhas {
         graphics.setFont(fonte);
 
         // escrever uma frase na nova imagem
-        graphics.drawString("JABA QUE ME DEU", 100, novaAltura - 100);
+        graphics.drawString("Mamada dimensional!", 100, novaAltura - 100);
 
         // escrever a nova imagem em um arquivo
         ImageIO.write(novaImagem, "png", new File("saida/" + nomeArquivo));
